@@ -1,0 +1,23 @@
+.item{
+    position: relative;
+    z-index: 10;
+}
+
+.buttons{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    z-index: 100;
+    position: absolute;
+    top: 70%;
+    left: 25%;
+}
+
+.btn-style{
+    background-color:#0089FF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    padding: 10px 20px ;
+}
